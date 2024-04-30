@@ -43,12 +43,24 @@ PyGame library was installed and incorporated to visualize the game graphics. Fo
 Instance #1
 The below snippet shows the starting of the Connect Four game with the Player 1 hovering over the board with the red disc (piece). 
 
+<p align="center">
+  <img width="40%" src="instance1.jpg">
+ </p>
+ 
 Instance #2
 The below snippet shows the Connect Four game where the Player 1 denoted by red discs is competing against the AI algorithm denoted by yellow discs. 
 
+<p align="center">
+  <img width="40%" src="instance2.jpg">
+ </p>
+ 
 Instance #3
 The below snippet shows a scenario where the AI algorithm has won with the winning move by matching the yellow pieces in a diagonal fashion.
 
+<p align="center">
+  <img width="40%" src="instance3.jpg">
+ </p>
+ 
 Time Complexity and Actual Runtime
 The optimal time complexity of the Minimax algorithm with alpha-beta pruning heuristic that was used in the experiment is O(bD ), where b denotes the branching factor and d denotes the depth of the game tree. The actual compile runtime of the programming was ~1 seconds with depth value set at 4.
 
